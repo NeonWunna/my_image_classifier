@@ -20,7 +20,7 @@ with open('model.pkl', 'rb') as f:
     model = pickle.load(f)
     
 # Set title
-st.title("Image Classification with MobileNetV2 by Nway Nway Kay Khaing")
+st.title("Image Classification with MobileNetV2 by Wunna Kaung Myat")
 
 # File upload
 upload_file = st.file_uploader("Upload image:", type=["jpg", "jpeg", "png"])
